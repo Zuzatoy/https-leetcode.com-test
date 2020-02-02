@@ -14,7 +14,8 @@ Here is solution for https://leetcode.com/problems/unique-email-addresses/
   const number = mainIterator.filter((x, i, a) => a.indexOf(x) == i).length;
     return number;
     
-}; ```
+}; 
+```
 
 const emails = ["test.email+alex@leetcode.com","test.e.mail+bob.cathy@leetcode.com","testemail+david@lee.tcode.com"];
 const emails = ["test.email+alex@leetcode.com","test.e.mail+bob.cathy@leetcode.com","testemail+david@lee.tcode.com"];
