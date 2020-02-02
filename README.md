@@ -16,7 +16,8 @@ Here is solution for https://leetcode.com/problems/unique-email-addresses/
     
 }; 
 ```
-
+```
 const emails = ["test.email+alex@leetcode.com","test.e.mail+bob.cathy@leetcode.com","testemail+david@lee.tcode.com"];
 const emails = ["test.email+alex@leetcode.com","test.e.mail+bob.cathy@leetcode.com","testemail+david@lee.tcode.com"];
 and etc
+```
