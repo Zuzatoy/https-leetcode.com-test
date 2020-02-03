@@ -6,7 +6,7 @@ var numUniqueEmails = function(emails) {
   const callback = email => {
       const localNames=email.substr(0, email.indexOf('@'));
       const trimmedLocalName=localNames.replace(/\+(.*)$/, '').replace(/\./g, '');
-      const domain = email.substring(email.indexOf('@'));
+      const domain = email.substr(email.indexOf('@'));
       const result = trimmedLocalName + domain;
       return result;
     }
